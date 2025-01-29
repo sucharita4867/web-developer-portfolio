@@ -12,7 +12,11 @@ nav{
     display: flex;
 }
 
+.textprimari{
+    color: #FD6E0A;
+}
+
 .title{
-    font-weight: 900;
+    font-weight: 800;
     font-size: 45px;
 }
