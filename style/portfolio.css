@@ -11,12 +11,24 @@
 nav{
     display: flex;
 }
-
+/* shared style */
 .textprimari{
     color: #FD6E0A;
+}
+
+.color{
+
 }
 
 .title{
     font-weight: 800;
     font-size: 45px;
+}
+
+nav li {
+    list-style: none;
+}
+nav li a{
+    text-decoration: none;
+    font-size: 20px;
 }
