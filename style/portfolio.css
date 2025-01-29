@@ -137,3 +137,11 @@ nav ul {
     text-align: center;
     margin: 130px;
   }
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+.item-description{
+    font-weight: 600;
+    /* justify-content: space-around; */
+}
