@@ -177,3 +177,8 @@ nav ul {
     color: #181818;
     text-align: center;
 }
+
+.resume-download-button{
+    text-align: center;
+    margin: 50px;
+}
