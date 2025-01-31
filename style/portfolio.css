@@ -180,5 +180,10 @@ nav ul {
 
 .resume-download-button{
     text-align: center;
-    margin: 50px;
+    margin: 45px;
+}
+/* footer style */
+
+.footer-subtitle{
+    display: flex;
 }
