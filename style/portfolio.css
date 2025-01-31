@@ -193,7 +193,27 @@ nav ul {
     margin-top: 50px;
 }
 
-footer input[type="text"], footer input[type="email"], footer textarea{
+footer input[type="text"]{
+    height: 50px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    display: block;
+    width: 100%;
+    margin-bottom: 24px;
+    border: none;
+}
+footer input[type="email"]{
+    height: 50px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    display: block;
+    width: 100%;
+    margin-bottom: 24px;
+    border: none;
+}
+footer textarea{
     height: 50px;
     padding: 10px 20px;
     border-radius: 5px;
