@@ -128,14 +128,14 @@ nav ul {
     margin: 0 auto;
   }
   main section{
-    margin: 130px;
+    /* margin: 130px; */
   }
 
   /* about style */
 
 .about{
     border-radius: 10px;
-    padding: 130px 150px;
+    /* padding: 130px 150px; */
     text-align: center;
     
   }
@@ -224,3 +224,17 @@ footer textarea{
     border: none;
 }
 
+/* Responsive Media Query */
+
+.hide{
+    display: none;
+}
+
+@media screen and (max-width:576px) {
+    .skills-container{
+        flex-direction: column;
+        width: 100%;max-width: fit-content;
+        padding: 0;
+        margin: 0;
+    }
+}
