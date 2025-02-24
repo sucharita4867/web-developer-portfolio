@@ -246,4 +246,7 @@ footer textarea{
     .footer-title{
         flex-direction: column;
     }
+    .about-items{
+        flex-direction: column;
+    }
 }
