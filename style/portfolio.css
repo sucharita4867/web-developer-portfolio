@@ -237,16 +237,31 @@ footer textarea{
         padding: 0;
         margin: 0;
     }
-    .resume-container{
+    .resume-container,
+    .about-items,
+    nav,
+    nav >ul,
+    .banner{
         flex-direction: column;
     }
     .footer-title{
         flex-direction: column;
+        padding: 20px;
     }
-    .footer-title{
-        flex-direction: column;
+    .banner{
+        margin: 20px;
     }
-    .about-items{
-        flex-direction: column;
+    .header{
+        background-image: none;
     }
+    .banner-pic{
+        width: 100%;
+    }
+    nav > ul{
+        gap: 20px;
+    }
+    
+    footer input[type="text"],footer input[type="email"], footer textarea{
+        width: calc(100% - 40px);
+    } 
 }
