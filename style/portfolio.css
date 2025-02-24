@@ -187,7 +187,7 @@ nav ul {
 .footer-title{
     display: flex;
     gap: 100px;
-    padding: 130px 230px;
+    /* padding: 130px 230px; */
 }
 .footer-peragraph{
     margin-top: 50px;
@@ -240,5 +240,10 @@ footer textarea{
     .resume-container{
         flex-direction: column;
     }
-    
+    .footer-title{
+        flex-direction: column;
+    }
+    .footer-title{
+        flex-direction: column;
+    }
 }
